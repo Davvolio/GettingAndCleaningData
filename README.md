@@ -47,7 +47,7 @@ Using function grep,we choose all measurements with mean and std in description,
 
 As was written in assighment:
 **Extracts only the measurements on the mean and standard deviation for each measurement**
-So I decided to extract only measurements contains words *mean()* of *std()*. At the end, 66 variables was extracted.
+So I decided to extract only measurements contains words *mean()* or *std()*. At the end, 66 variables was extracted.
 
 ```
 mean_and_std_vector<-grep("mean\\(|std\\(", var_names[,2], value=F)
